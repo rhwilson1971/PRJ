@@ -19,6 +19,7 @@
 		CEADECD31888BF940059449A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEADECBB1888BF930059449A /* UIKit.framework */; };
 		CEADECDB1888BF940059449A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CEADECD91888BF940059449A /* InfoPlist.strings */; };
 		CEADECDD1888BF940059449A /* PRJTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CEADECDC1888BF940059449A /* PRJTests.m */; };
+		CEADECE71888C8560059449A /* PRJ.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEADECE61888C8560059449A /* PRJ.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		CEADECD81888BF940059449A /* PRJTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PRJTests-Info.plist"; sourceTree = "<group>"; };
 		CEADECDA1888BF940059449A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CEADECDC1888BF940059449A /* PRJTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PRJTests.m; sourceTree = "<group>"; };
+		CEADECE61888C8560059449A /* PRJ.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = PRJ.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		CEADECAB1888BF930059449A = {
 			isa = PBXGroup;
 			children = (
+				CEADECE61888C8560059449A /* PRJ.storyboard */,
 				CEADECBD1888BF940059449A /* PRJ */,
 				CEADECD61888BF940059449A /* PRJTests */,
 				CEADECB61888BF930059449A /* Frameworks */,
@@ -221,6 +224,7 @@
 			files = (
 				CEADECC21888BF940059449A /* InfoPlist.strings in Resources */,
 				CEADECCA1888BF940059449A /* Images.xcassets in Resources */,
+				CEADECE71888C8560059449A /* PRJ.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
